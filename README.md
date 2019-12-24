@@ -1,5 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To create node modules
+npm install react-scripts --save <br />
+yarn add react-admin ra-data-json-server prop-types
+
 ## Available Scripts
 
 In the project directory, you can run:
