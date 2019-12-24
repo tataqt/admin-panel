@@ -5,7 +5,7 @@ import { useMediaQuery } from '@material-ui/core';
 export const PostList = (props) => {
     const isSmall = useMediaQuery(theme => theme.breakpoints.down('sm'));
     return (
-        <List {...props}>
+        <List filters={<PostFilter />} {...props}>
             {isSmall ? (
                 <SimpleList
                     primaryText={record => record.title}
